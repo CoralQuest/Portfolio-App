@@ -5,3 +5,6 @@ def home(request):
 
 def project_detail(request):
     return render(request, 'project_detail.html')
+
+def project1_view(request):
+    return render(request, 'project1.html')
